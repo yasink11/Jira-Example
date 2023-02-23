@@ -1,7 +1,19 @@
 # Jira
 
 
-## I created using Angular
+## A JIRA and Trello-like application that I created using Angular and Angular material
+
+######  MatToolbarModule,
+######  MatButtonModule,
+######  MatDialogModule,
+######  FormsModule,
+######  ReactiveFormsModule,
+######  MatFormFieldModule,
+######  MatInputModule,
+######  MatIconModule,
+######  MatSnackBarModule,
+######  MatCardModule,
+######  MatCheckboxModule
 
 ![Yeniboard](https://user-images.githubusercontent.com/100369628/220909742-39f41dbf-99db-470c-a106-a7ff677bfa54.png)
 
