@@ -1,27 +1,10 @@
 # Jira
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
-## Development server
+## I created using Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Yeniboard](https://user-images.githubusercontent.com/100369628/220909742-39f41dbf-99db-470c-a106-a7ff677bfa54.png)
 
-## Code scaffolding
+![Kartıgüncelle](https://user-images.githubusercontent.com/100369628/220910062-c6ce9999-55dc-48c6-8f58-b57cdd31c138.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Kart](https://user-images.githubusercontent.com/100369628/220910034-23e4e24d-351f-4a44-ab22-46b7f79ed32e.png)
