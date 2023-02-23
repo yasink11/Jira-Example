@@ -1,0 +1,25 @@
+<h3 mat-dialog-title> {{data.editMode ? 'Kartı Güncelle': 'Yeni Kart'}}</h3>
+
+<mat-dialog-content>
+    <mat-form-field style="width: 100%;" >
+        <mat-label>Başlık</mat-label>
+        <input matInput [(ngModel)]="title">
+    </mat-form-field>
+
+    <div *ngFor="let task of tasksLoop; let i=index">
+    <mat-form-field style="width: 90%;" >
+        <mat-label>Task{{i +1}}</mat-label>
+        <input [(ngModel)]="tasks[i]" matInput>
+    </mat-form-field>
+    <button mat-icon-button style="width: 10%;" (click)="deleteTask(i)">
+        <mat-icon>delete</mat-icon>
+    </button>        
+</div>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-raised-button style="width: 50%;" (click)="addTask()">Yeni Task Ekle</button>
+    <button mat-raised-button color="accent" (click)="close()">İptal</button>
+    <button mat-raised-button color="primary" (click)="create()">{{data.editMode ? 'Güncelle': 'Ekle'}}</button>
+</mat-dialog-actions>
